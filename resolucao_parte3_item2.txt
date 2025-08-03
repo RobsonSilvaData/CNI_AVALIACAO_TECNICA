@@ -1,0 +1,15 @@
+Nesse cenário, quando não há uma API para integrarmos e buscar os dados, o meio mais utilizado é o conceito de web scraping. Com essa técnica é possível criar um processo de extração de dados automatizado,
+essa automatização utiliza navegadores para simular a navegação humana. 
+
+Temos diversas bibliotecas Python para isso as mais tradicionais são: Selenium, Playwright, Scrapy e o velho combo BeautifulSoup + requests, que ajuda bastante quando se trata de dados estáticos.
+
+Antes de começar a raspar os dados, temos que validar algumas coisas, eu começaria por um processo de descoberta dos dados que serão raspados. Nessa etapa, é onde verificaria o teor das informações, 
+os termos de uso, se o conteúdo é protegido por direitos autorais etc.
+
+Depois de toda essa validação, eu realizaria um mapeamento e um entendimento da usabilidade do site, os requisitos, a rotina de atualização e a forma de monitoramento da automatização. 
+
+Com posse dessas informações eu definiria a arquitetura a ser seguida.
+
+Um detalhe importante é que para realizar web scraping, é essencial que a pessoa tenha um bom domínio de HTML, CSS e JavaScript, basicamente, 
+entender bem o DOM (Document Object Model). Isso porque toda a lógica de extração gira em torno da estrutura da página, então saber navegar por ela faz toda a diferença.
+
